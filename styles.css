@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 10px;
+}
+
+.mode-buttons {
+  text-align: center;
+  margin-bottom: 10px; /* Add margin at the bottom to create space */
+}
+
+.mode-button {
+  background-color: #0073e6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+  border-radius: 20px; /* Add roundness to the buttons */
+}
+
+.mode-button[data-mode="Translate"].selected {
+  background-color: #7700b3;
+}
+
+.mode-button[data-mode="Fix Grammar"].selected {
+  background-color: #7700b3; /* Change to the color you prefer */
+}
+
+.popup-container {
+  width: 300px; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+  background-color: #0073e6;
+  color: #fff;
+  padding: 10px 20px; /* Adjust padding to increase button size */
+  border: none;
+  cursor: pointer;
+  margin-top: 10px; /* Add space between input and button */
+  border-radius: 20px; /* Add roundness to the buttons */
+}
+
+button:hover {
+  background-color: #005bb3;
+}
+
+#translationResult {
+  margin-top: 10px;
+}
